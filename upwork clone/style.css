@@ -214,6 +214,7 @@
     border-radius:8px;
     margin:5px 6px;
     margin-top:20px;
+    background-color:rgba(216, 213, 213, 0.361);
     &:hover{
         background-color:rgb(216, 213, 213);
     }
