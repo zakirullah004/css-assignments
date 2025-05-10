@@ -122,3 +122,43 @@
     margin: 5px 5px;
     height: 30px;
 }
+
+
+.aboutSection{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding:30px 40px;
+}
+
+.aboutTitle h2{
+    font-size:50px;
+}
+.aboutSection .aboutLeft,.aboutRight{
+    display: inline-block;
+}
+.aboutLeft img{
+    vertical-align: middle;
+}
+
+
+.aboutRight{
+    display: inline-block;
+    padding: 30px 20px;
+    vertical-align: middle;
+}
+
+.aboutList{
+    margin-top:18px;
+}
+
+.listPara p{
+    margin-left: 24px;
+    font-size: 20px;
+    color: rgb(73, 72, 72);
+}
+.listTitle h4{
+    display: inline-block;
+    margin-left:5px;
+    font-size:22px;
+    margin-top:5px;
+}
