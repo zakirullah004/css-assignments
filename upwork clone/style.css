@@ -184,3 +184,55 @@
     color: green;
     background-color: white;
 }
+
+.talentSection{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding:30px 40px;
+}
+
+.talentHead h3{
+    font-size: 35px;
+}
+.talentinfo{
+    margin-top:6px;
+}
+.talentinfo p{
+    font-size: 20px;
+}
+.talentinfo a{
+    color: green;
+    text-decoration:none;
+    margin-left:10px;
+}
+
+.card{
+    display: inline-block;
+    padding:20px 25px;
+    width: 250px;
+    height: 100px;
+    border-radius:8px;
+    margin:5px 6px;
+    margin-top:20px;
+    &:hover{
+        background-color:rgb(216, 213, 213);
+    }
+}
+.cardHead h4{
+    font-size: 20px;
+}
+.cardFoot{
+    margin-top:25px;
+}
+.cardFoot div{
+    display: inline-block;
+}
+.leftFoot p{
+    display: inline-block;
+}
+.leftFoot i{
+    color: green;
+}
+.rightFoot{
+    float: right;
+}
