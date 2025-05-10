@@ -162,3 +162,25 @@
     font-size:22px;
     margin-top:5px;
 }
+
+.aboutBtns{
+    margin-top:20px;
+}
+.aboutBtns button{
+    border: none;
+    border-radius:8px;
+    padding:10px 15px;
+    font-size:18px;
+}
+.greenBtn{
+    background-color:green;
+    color: white;
+    &:hover{
+        background-color: rgba(6, 167, 6, 0.947);
+    }
+}
+.whiteBtn{
+    border: 1px solid green !important;
+    color: green;
+    background-color: white;
+}
