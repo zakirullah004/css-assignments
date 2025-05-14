@@ -11,7 +11,7 @@
     display:flex;
     align-items: center;
     justify-content: space-between;
-    padding:10px 60px;
+    padding:0px 60px;
 }
 .navLeft{
     display: flex;
@@ -33,4 +33,47 @@
     font-weight: lighter;
     font-family: "audi",sans-serif;
     color:gray;
+}
+
+
+.heroSection{
+    width: 100%;
+    position: relative;
+}
+
+.heroImg img{
+    width:100%;
+    height:650px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.heroContent{
+    position:absolute;
+    bottom:60px;
+    left: 110px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.heroTitle h1{
+    font-family: "audi",sans-serif;
+    font-size:46px;
+    font-weight:400;
+    color: white;
+    letter-spacing:2px;
+}
+
+.heroPara p{
+    font-family: "audi",sans-serif;
+    font-size:22px;
+    font-weight:400;
+    color: rgb(238, 235, 235);
+}
+
+.heroBtn button{
+    border: none;
+    padding: 15px 30px;
+    font-size:18px;
 }
