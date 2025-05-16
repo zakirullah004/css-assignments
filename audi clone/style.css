@@ -2,9 +2,11 @@
     font-family: "audi";
     src: url("./fonts/AudiTypeVF_Lat.woff2");
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -78,7 +80,7 @@ html{
     color: rgb(238, 235, 235);
 }
 
-.heroBtn button{
+.heroBtn button {
     border: none;
     padding: 15px 30px;
     font-size: 18px;
@@ -118,7 +120,7 @@ html{
 
 .cardTitle h2 {
     font-weight: lighter;
-    font-family: "audi",sans-serif;
+    font-family: "audi", sans-serif;
 }
 
 .cardPara p {
@@ -137,50 +139,57 @@ html{
     text-underline-offset: 8px;
     font-size: 18px;
 }
-.cardBtn:hover .fa-greater-than{
+
+.cardBtn:hover .fa-greater-than {
     transform: translateX(15px);
     transition: all 0.5s;
 }
-.fa-greater-than{
+
+.fa-greater-than {
     font-weight: lighter !important;
 }
 
 
 
-.infoSection{
-    padding:80px 60px;
+.infoSection {
+    padding: 80px 60px;
     display: flex;
     flex-direction: column;
     gap: 6rem
 }
 
-.infocard{
+.infocard {
     display: flex;
     justify-content: center;
-    gap:30px;
+    gap: 30px;
 }
-.infocard2{
+
+.infocard2 {
     flex-direction: row-reverse;
 }
-.infocardLeft{
+
+.infocardLeft {
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap:3rem;
-    font-family:"audi",sans-serif;
+    gap: 3rem;
+    font-family: "audi", sans-serif;
     padding: 30px;
 }
-.infoTitle h2{
+
+.infoTitle h2 {
     font-size: 34px;
     font-weight: 500;
-    letter-spacing:3px;
+    letter-spacing: 3px;
 }
-.infoPara p{
+
+.infoPara p {
     font-size: 18px;
     color: rgb(45, 45, 45);
-    line-height:1.5rem;
+    line-height: 1.5rem;
 }
-.infoBtn button{
+
+.infoBtn button {
     border: none;
     border: 1px solid black;
     padding: 15px 30px;
@@ -188,80 +197,88 @@ html{
     background-color: white;
 }
 
-.infocardRight{
-width: 50%;
+.infocardRight {
+    width: 50%;
 }
-.infocardRight img{
+
+.infocardRight img {
     width: 100%;
     height: 100%;
 }
-.pressBtn{
+
+.pressBtn {
     text-align: center;
 }
-.pressBtn button{
+
+.pressBtn button {
     border: none;
     padding: 15px 30px;
     font-size: 18px;
     background-color: black;
     color: white;
 }
-.lightText p{
+
+.lightText p {
     font-size: 14px;
     color: rgb(105, 104, 104);
 }
 
 
-.footer{
-    background-color:black;
-    color:white;
+.footer {
+    background-color: black;
+    color: white;
     display: flex;
     flex-direction: column;
     gap: 30px;
     padding: 30px 60px 100px;
-    font-family: "audi",sans-serif;
+    font-family: "audi", sans-serif;
 }
 
-.footerHead{
+.footerHead {
     display: flex;
     align-items: center;
     justify-content: end;
-    gap:10px;
-    &:hover{
+    gap: 10px;
+
+    &:hover {
         cursor: pointer;
     }
 }
-.footerHead a{
+
+.footerHead a {
     color: white;
     text-decoration: none;
-    font-weight:500;
+    font-weight: 500;
 }
-.footerHead:hover .fa-arrow-up{
+
+.footerHead:hover .fa-arrow-up {
     transform: translateY(-10px);
     transition: all 0.4s;
 }
 
-.footerLists{
+.footerLists {
     display: flex;
     gap: 10rem;
-    font-family: "audi",sans-serif;
-    padding:30px 0px 0px 30px;
+    font-family: "audi", sans-serif;
+    padding: 30px 0px 0px 30px;
 }
 
 .footerLists ul {
-    list-style-type:none;
+    list-style-type: none;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size:12px;
+    font-size: 12px;
 }
 
-.ft{
+.ft {
     display: flex;
     flex-direction: column;
     gap: 50px;
 }
-.ft h3{
-    font-weight:lighter;
+
+.ft h3 {
+    font-weight: lighter;
     font-size: 20px;
 }
 
@@ -269,42 +286,137 @@ width: 50%;
     display: flex;
     justify-content: flex-end;
     gap: 30px;
-    border-bottom:1px solid white;
-    padding:20px 10px;
+    border-bottom: 1px solid white;
+    padding: 20px 10px;
 }
 
-.copyRight{
+.copyRight {
     display: flex;
-    gap:40px;
-    font-family: "audi",sans-serif;
+    gap: 40px;
+    font-family: "audi", sans-serif;
 }
-.copyLogo{
+
+.copyLogo {
     display: flex;
     align-items: center;
     gap: 4px;
 }
-.copyRight h4{
-    font-weight:lighter;
-    font-size:14px;
+
+.copyRight h4 {
+    font-weight: lighter;
+    font-size: 14px;
 }
-.copyRight ul{
+
+.copyRight ul {
     display: flex;
-    gap:15px;
-    list-style-type:none;
-    font-size:13px;
+    gap: 15px;
+    list-style-type: none;
+    font-size: 13px;
 }
 
 .language {
     display: flex;
-    gap:10px;
-    align-items:center;
+    gap: 10px;
+    align-items: center;
     margin-left: auto;
 }
-.language .fa-globe{
+
+.language .fa-globe {
     font-size: 22px;
 }
-.notice p{
+
+.notice p {
     padding-top: 20px;
     color: rgb(205, 204, 204);
     font-size: 13px;
+}
+
+
+@media screen and (max-width:968px) {
+    .topicCardsMain {
+        grid-template-columns: 1fr 1fr;
+        gap: 3rem 1rem;
+    }
+}
+
+@media screen and (max-width:786px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .navLeft .navitems {
+        display: none;
+    }
+
+    .heroContent {
+        bottom: 60px;
+        left: 20px;
+    }
+
+    .navbar {
+        padding: 0px 20px;
+    }
+
+    .topicSection {
+        padding: 80px 20px;
+    }
+
+    .topicCardsMain {
+        grid-template-columns: 1fr;
+        gap: 3rem 0.3rem;
+    }
+
+    .infoSection {
+        padding: 80px 20px;
+    }
+
+    .infocard {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .infocardLeft {
+        width: 100%;
+        padding: 0px;
+        gap: 10px;
+    }
+
+    .infocardRight {
+        width: 100%;
+    }
+
+    .footer {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .footerLists {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .copyRight {
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .copyRight h4 {
+        font-weight: lighter;
+        font-size: 14px;
+    }
+
+    .language {
+        margin-right: auto;
+    }
+
+    .copyRight ul {
+        gap: 10px;
+        font-size: 10px;
+    }
+
+    #fullBtn button {
+        width: 100%;
+    }
+
 }
