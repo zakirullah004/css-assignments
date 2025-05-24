@@ -334,6 +334,9 @@
     padding:8px 0;
 }
 
+.footerMain{
+    background-color: black;
+}
 .footer{
     background-color:black;
     color: white;
