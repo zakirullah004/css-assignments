@@ -330,7 +330,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
 }
 
 .rightImg {
@@ -392,7 +392,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 20px;
     border-bottom: 1px solid gray;
     padding-bottom: 40px;
 }
@@ -403,15 +403,15 @@
 }
 
 .footAbout {
-    flex: 1;
+    width: 30%;
 }
 
 .quickLinks {
-    flex: 1;
+    width: 30%;
 }
 
 .contactUs {
-    flex: 1;
+    width: 30%;
 }
 
 .footAbout p {
@@ -463,6 +463,71 @@
     left: 100px;
 
 }
+.watchSection {
+    padding: 50px 30px;
+}
+.watchesContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 20px;
+}
+
+.celebcardContainer {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.rightCont h3 {
+    font-size: 13px;
+    font-weight: 700;
+}
+.menSection {
+    flex-direction: column;
+    padding: 80px 30px;
+    gap:50px;
+}
+
+.menLeft {
+    width: 100%;
+}
+.menRight {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+}
+.footerflex{
+    justify-content: flex-start;
+}
+.footAbout {
+    width: 100%;
+}
+
+.quickLinks {
+    width: 40%;
+}
+
+.contactUs {
+    width: 40%;
+}
+
+
+}
+
+
+@media screen and (max-width:768px){
+    .footer{
+        padding: 50px 30px;
+    }
+.footAbout {
+    width: 100%;
+}
+
+.quickLinks {
+    width: 100%;
+}
+
+.contactUs {
+    width: 100%;
+}
 
 }
 
@@ -486,5 +551,54 @@
     bottom:50px;
     left: 50px;
 }
+.collBtn button{
+    width:100%;
+}
+.watchesContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px 20px;
+}
+.watchImg {
+    width: 100%;
+    text-align: center;
+}
 
+.watchImg img {
+    width: 50%;
+    height:200px;
+}
+
+.celebcardContainer {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.menRight {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.rightCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+}
+
+@media screen and (max-width:400px) {
+    .watchesContainer {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap:40px;
+}
+.celebcardContainer {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 40px;
+}
+    
 }
